@@ -38,7 +38,7 @@ def get_available_quality_options(youtube_url):
                 st.warning("No valid quality options found.")
                 return []
         else:
-            st.warning("Insert URL")
+            st.warning("Insert URL and press Enter")
             return []
     except Exception as e:
         st.error(f"An error occurred while fetching quality options: {str(e)}")
